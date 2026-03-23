@@ -1,0 +1,21 @@
+{
+  "name": "novelarc",
+  "version": "18.5.0",
+  "description": "Türkçe Light Novel Okuma Platformu",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "npm run dev",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "light-novel",
+    "web-novel",
+    "türkçe"
+  ],
+  "author": "NovelArc",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
